@@ -1,7 +1,4 @@
-OPSC7312 POE
-Team:
-Lonwabo Gade
-Koketso Motsikwe
+
 
 Files
 README.pdf
