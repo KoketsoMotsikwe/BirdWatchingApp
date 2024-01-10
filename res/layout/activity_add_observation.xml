@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".AddObservation">
+
+    <TextView
+        android:id="@+id/tvAddObservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+
+        android:text="@string/AddObservation"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/etSelectSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddObservation"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableStart="@drawable/bird"
+        android:drawableEnd="@drawable/arrow_rightpx"
+        android:drawableTint="@color/white"
+        android:focusable="false"
+        android:hint="@string/SelectSpecies"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etHowMany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSelectSpecies"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableStart="@drawable/hash"
+        android:drawableEnd="@drawable/arrow_rightpx"
+        android:drawableTint="@color/white"
+        android:hint="@string/HowMany"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etWhen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etHowMany"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableStart="@drawable/calendar"
+        android:drawableEnd="@drawable/arrow_rightpx"
+        android:drawableTint="@color/white"
+        android:focusable="false"
+        android:hint="@string/When"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/etWhen"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rectangle_border"
+        android:gravity="start"
+        android:hint="@string/AddNote"
+        android:minHeight="48dp"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnSaveObservation"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/etNote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/Blue1"
+        android:elevation="10dp"
+        android:text="@string/SaveObservation" />
+
+    <TextView
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSaveObservation"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/Back"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/pbWaitForData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etHowMany"
+        android:visibility="gone" />
+
+</RelativeLayout>

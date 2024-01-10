@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Tweety Bird</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string name="Metric">Metric</string>
+    <string name="Imperial">Imperial</string>
+    <string name="AddObservation">Add Observation</string>
+
+
+    <string name="HowMany">How many did you see?</string>
+    <string name="When">When did you see it?</string>
+    <string name="Where">Where did you see it?</string>
+    <string name="AddNote"><i>Add a note to your entry</i></string>
+
+
+    <string name="SelectSpecies">Select a species</string>
+    <string name="SaveObservation">Save Observation</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="Back">Back</string>
+    <string name="Location">Location</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="signIn">Sign In</string>
+
+    <string name="signUp">Sign Up</string>
+
+    <string name="Logo">Logo</string>
+
+    <string name="UserName">Lerato Aphane</string>
+    <string name="UserEmail">LeratoA@gmail.com</string>
+    <string name="Settings"><b>Settings</b></string>
+    <string name="Units">Units</string>
+    <string name="MaxRadius">Max Radius</string>
+    <string name="About">About</string>
+
+    <string name="logout">Logout</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+
+
+    <string name="name">Name</string>
+    <string name="repeatPassword">Repeat Password</string>
+    <string name="surname">Surname</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoiYW5nZWxvLXQiLCJhIjoiY2xuY3hyaWtpMGt5ZTJqcXNoNzh4cjkxdiJ9.VasjYafU8FXBUIgJMxyG-Q</string>
+</resources>

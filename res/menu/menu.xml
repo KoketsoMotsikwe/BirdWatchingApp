@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuSettings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+
+    <item
+        android:id="@+id/menuAddSighting"
+        android:title="Add Sighting"
+        android:icon="@drawable/edit_square"/>
+
+    <item
+        android:id="@+id/menuViewSighting"
+        android:title="View Sightings"
+        android:icon="@drawable/visibility"/>
+
+
+</menu>
